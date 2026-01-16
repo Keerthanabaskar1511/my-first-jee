@@ -1,9 +1,0 @@
-package access_two;
-
-public class Student extends teaching{
-	public static void main(String[] args) {
-		Student te=new Student();
-		System.out.println(te.show());
-	}
-
-}
