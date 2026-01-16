@@ -1,0 +1,71 @@
+package productdetails;
+
+public class Product {
+	private String pname;
+	private int pid;
+	Product(String pname,int pid){
+		this.pname=pname;
+		this.pid=pid;
+		
+	}
+	public String getPname() {
+		return pname;
+	}
+
+
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+
+
+	public int getPid() {
+		return pid;
+	}
+
+
+	public void setPid(int pid) {
+		this.pid = pid;
+	}
+    }
+	public class Customer extends Product{
+		private String cusname;
+		private int quantity;
+		customer(String pname, int pid, String cusname,int quantity){
+			super(pname,pid);
+			this.cusname=cusname;
+			this.quantity=quantity;
+			
+		}
+		public String getCusname() {
+			return cusname;
+		}
+		public void setCusname(String cusname) {
+			this.cusname = cusname;
+		}
+		public int getQuantity() {
+			return quantity;
+		}
+		public void setQuantity(int quantity) {
+			this.quantity = quantity;
+		}
+		public void show() {
+			System.out.println("pname:"+getpname()+"\npid"+getpid()+"\ncusname"+cusname()+"\nquantity"+quantity);
+		}
+		
+	}
+	}
+	public class test{
+		public static void main(String[] args) {
+			Customer c=new Customer(
+					"Laptop",5500,
+					"keerthi",1
+					);
+			c.setQuantity(2);
+			c.show();
+	
+	}
+	}
+
+	
+
+

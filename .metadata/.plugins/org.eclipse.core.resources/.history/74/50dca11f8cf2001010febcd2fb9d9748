@@ -1,0 +1,10 @@
+package cons;
+
+public class Student {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

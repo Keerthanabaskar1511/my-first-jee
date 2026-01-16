@@ -1,0 +1,20 @@
+package access_one;
+class student{
+	private String name="Keerthana";
+	public void show() {
+		System.out.println(name);
+	}
+	
+}
+
+public class cs {
+
+	public static void main(String[] args) {
+		student st=new student();
+		System.out.println(st);
+		st.show();
+		
+
+	}
+
+}

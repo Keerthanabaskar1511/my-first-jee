@@ -1,0 +1,9 @@
+package access_two;
+
+public class Student {
+	public static void main(String[] args) {
+		teaching te=new teaching();
+		System.out.println(te.salary);
+	}
+
+}

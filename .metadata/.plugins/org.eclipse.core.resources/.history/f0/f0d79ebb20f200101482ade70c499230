@@ -1,0 +1,16 @@
+package accessmodifier;
+
+public class Access1public {
+	public String name="Keerthana";
+	public void show() {
+		System.out.println(" Show Name ");
+	}
+
+}
+public class Access{
+	public static void main(String[] args) {
+		Access1public p=new Acess1public();
+		System.out.println(p.name);
+		p.show();
+	}
+}

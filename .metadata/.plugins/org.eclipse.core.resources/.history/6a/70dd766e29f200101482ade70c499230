@@ -1,0 +1,16 @@
+package access_one;
+class student{
+	public String name="Keerthana";
+	
+}
+
+public class cs {
+
+	public static void main(String[] args) {
+		Student st=new Student();
+		System.out.println(st.name);
+		
+
+	}
+
+}

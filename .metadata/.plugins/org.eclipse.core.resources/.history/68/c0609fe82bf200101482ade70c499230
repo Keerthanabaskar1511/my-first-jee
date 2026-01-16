@@ -1,0 +1,7 @@
+package access_two;
+
+public class teaching {
+
+	private int salary=25000;
+
+}
